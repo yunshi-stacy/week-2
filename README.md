@@ -12,11 +12,7 @@
 - Data types
 - Conditions
 - Arrays
-
-## Javascript Functions
-- Organization
-- Composition
-- Side-effects/purity
+- Functions
 
 ## Underscore & Imports
 - API exploration
