@@ -30,17 +30,17 @@ print these arrays to the console.
 * On application start, use `console.log` to show an array of arrays
   in which the first sub-array contains keys and the rest of the arrays
   contain the 'rows' of our data
+* An example of what this would look like for a different dataset:
+  `[["name", "job"],["Bruce Springsteen", "Musician"],["Terry Gross", "Journalist"]]`
 
 Second, we want to know where the health centers are located within the
 zip codes from 19140 to 19149 (inclusive).
 * All and only markers found within the zip code range from 19140 to
   19149 should appear
-* Each marker should have custom content that comes up in a dialog when
-  clicked which tells us the location name
+* Each marker should have a popup when clicked which tells us the location name
 
 #### Extra
 
 Some health centers offer dental services as well. Can you find a way to
 give centers that provide dental services a different icon than those
 that do not?
-
