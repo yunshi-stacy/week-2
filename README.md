@@ -6,7 +6,7 @@
 
 ### Git/Github continued
 - Forking
-- Pull requests
+- Pull requests (turning in assignments)
 
 ## Javascript Fundamentals
 - Data types
