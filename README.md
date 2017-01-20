@@ -28,19 +28,19 @@
 
 We're producing a simple map to help people find health centers in the
 Philadelphia area. Our application has two goals:
-First, we want to know where the health centers are located within the
+
+First, we'd like to provide this data in javascript arrays. We should
+print these arrays to the console.
+* On application start, use `console.log` to show an array of arrays
+  in which the first sub-array contains keys and the rest of the arrays
+  contain the 'rows' of our data
+
+Second, we want to know where the health centers are located within the
 zip codes from 19140 to 19149 (inclusive).
 * All and only markers found within the zip code range from 19140 to
-  19149 (inclusive) should appear
+  19149 should appear
 * Each marker should have custom content that comes up in a dialog when
   clicked which tells us the location name
-
-Second, we'd like to provide users with the ability to export our data
-in a simplified CSV format. We can provide this to them in console printouts.
-* On application start, console.log EITHER:
-    * An array for the keys and an array for each 'row' OR
-    * An array of arrays in which the first sub-array contains keys and
-      the rest of the arrays contain the 'rows' of our CSV
 
 #### Extra
 
