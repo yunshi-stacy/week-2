@@ -4,7 +4,7 @@
 
 ## Week 1 Review
 
-### Git/Github addendum
+### Git/Github continued
 - Forking
 - Pull requests
 
@@ -13,10 +13,6 @@
 - Conditions
 - Arrays
 - Functions
-
-## Underscore & Imports
-- API exploration
-- Mapping; filtering
 
 ## Assignment
 
