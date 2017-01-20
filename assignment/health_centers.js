@@ -4,7 +4,7 @@ var healthCenters = [
     "LNG":-75.16472099534634,
     "LAT":40.034508187448395,
     "OBJECTID":1,
-    "NAME":"Covenant House Health Services",
+    "NAME":"Covenant Health Services",
     "ORGANIZATION":"Covenant",
     "ZIP":19144,
     "PHONE":"215-844-0181",
@@ -364,7 +364,7 @@ var healthCenters = [
     "LNG":-75.23845470248338,
     "LAT":39.95850513313452,
     "OBJECTID":31,
-    "NAME":"Sayre Health Center",
+    "NAME":"Sayre Health",
     "ORGANIZATION":"Sayre-Penn",
     "ZIP":19139,
     "PHONE":"215-474-4444",
@@ -532,7 +532,7 @@ var healthCenters = [
     "LNG":-75.17022950680595,
     "LAT":39.980241690204736,
     "OBJECTID":45,
-    "NAME":"Stephen Klein Wellness Center",
+    "NAME":"Klein Wellness Center",
     "ORGANIZATION":"Project HOME",
     "ZIP":19121,
     "PHONE":"215-320-6187",
@@ -540,4 +540,4 @@ var healthCenters = [
     "DENTAL_PHONE":"215-320-6187",
     "FULL_ADDRESS":"2144 Cecil B Moore Ave"
   }
-]
+];
