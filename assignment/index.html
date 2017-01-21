@@ -54,11 +54,43 @@
       Start code
 
       ===================== */
+      var list = []
 
-      var jsonToCsv = function(json) { console.log(json); };
+      function jsonToCsv(dataset) {
+        //first item in array is about the property names
+        list[0] = Object.keys(dataset[0]);
+        for (var i = 0; i < dataset.length; i++) {
+          var item = [];
+          for (j in dataset[i]){
+            item.push(dataset[i][j]);
+          }
+          list.push(item);
+        }
+      }
+      jsonToCsv(healthCenters);
+      console.log(list);
+      //add markers
+      var tooth =  L.icon({
+        iconUrl: 'tooth.png',
+        iconSize: [35, 35],
+      });
+      function addMarkers(dataset) {
+        for(var i=0;i<dataset.length;i++){
+          if(dataset[i].ZIP >= 19140 && dataset[i].ZIP <= 19149){
+            if (dataset[i].DENTAL_PHONE !== "N/A"){
+              L.marker([dataset[i].LAT,dataset[i].LNG],{icon: tooth})
+              .addTo(map)
+              .bindPopup(dataset[i].NAME)
+              .openPopup();
+            } else {L.marker([dataset[i].LAT,dataset[i].LNG])
+              .addTo(map)
+              .bindPopup(dataset[i].NAME)
+              .openPopup();};
+            };
+          };
+        };
+        addMarkers(healthCenters);
 
-
-      var addMarkers = function(map) {};
 
       /* =====================
 
@@ -66,9 +98,6 @@
 
       ===================== */
 
-
-      jsonToCsv(healthCenters);
-      addMarkers(map);
     </script>
     <!--Your code ends here-->
   </body>
